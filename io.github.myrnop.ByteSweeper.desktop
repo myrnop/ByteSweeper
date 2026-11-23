@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ByteSweeper
+Comment=Tactical arcade grid-sweeping puzzle game
+Exec=bytesweeper
+Icon=io.github.myrnop.ByteSweeper
+Terminal=false
+Type=Application
+Categories=Game;LogicGame;
+Keywords=minesweeper;puzzle;grid;arcade;logic;
+StartupNotify=true

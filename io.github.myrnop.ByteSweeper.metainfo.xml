@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.myrnop.ByteSweeper</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <name>ByteSweeper</name>
+  <summary>Clear digital sectors and outsmart hidden glitches</summary>
+  <developer id="io.github.myrnop">
+    <name>Faisal Almalahy</name>
+  </developer>
+
+  <description>
+    <p>
+      ByteSweeper is a fast-paced, modern twist on classic grid-sweeping puzzles built natively for the Linux desktop. Navigate five escalating digital sectors, deduce where glitches are hiding, and use tactical power-ups when pure logic hits a wall.
+    </p>
+    <ul>
+      <li>Five progressive sectors from 6×6 Boot Cache to 12×12 Core Matrix</li>
+      <li>Shield system that lets you survive accidental glitch hits</li>
+      <li>Tactical Patch and Radar Scan abilities powered by collected Energy</li>
+      <li>Warp Nodes that teleport your scan across the board</li>
+      <li>Full mouse and keyboard navigation (Arrows, WASD, or Vim keys)</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">io.github.myrnop.ByteSweeper.desktop</launchable>
+
+  <url type="homepage">https://github.com/myrnop/bytesweeper</url>
+  <url type="bugtracker">https://github.com/myrnop/bytesweeper/issues</url>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Sweeping digital sectors in ByteSweeper</caption>
+      <image>https://raw.githubusercontent.com/myrnop/bytesweeper/main/screenshot.png</image>
+    </screenshot>
+  </screenshots>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#3584e4</color>
+    <color type="primary" scheme_preference="dark">#1c71d8</color>
+  </branding>
+
+  <content_rating type="oars-1.1" />
+
+  <releases>
+    <release version="1.0.0" date="2026-11-24">
+      <description>
+        <p>Initial release featuring 5 sectors, tactical power-ups, synthesized retro audio, and keyboard controls.</p>
+      </description>
+    </release>
+  </releases>
+</component>
