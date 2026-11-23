@@ -20,11 +20,6 @@ modules:
       - install -Dm644 io.github.myrnop.ByteSweeper.metainfo.xml /app/share/metainfo/io.github.myrnop.ByteSweeper.metainfo.xml
       - install -Dm644 io.github.myrnop.ByteSweeper.svg /app/share/icons/hicolor/scalable/apps/io.github.myrnop.ByteSweeper.svg
     sources:
-      - type: file
-        path: ByteSweeper.py
-      - type: file
-        path: io.github.myrnop.ByteSweeper.desktop
-      - type: file
-        path: io.github.myrnop.ByteSweeper.metainfo.xml
-      - type: file
-        path: io.github.myrnop.ByteSweeper.svg
+      - type: git
+        url: https://github.com/myrnop/ByteSweeper.git
+        commit: 588ebc15a276d2f524e8962832b14a7a59facd13
