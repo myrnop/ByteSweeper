@@ -1,0 +1,7 @@
+.flatpak-builder/
+build-dir/
+repo/
+pkg-root/
+*.flatpak
+*.deb
+*.rpm
